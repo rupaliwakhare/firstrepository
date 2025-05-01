@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main{
+        width: 70%;
+        /* height: 500px; */
+        border: 2px solid;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    h1{
+       text-align: center;
+    }
+    #number{
+        width: 80%;
+        height: 50px;
+        border: 2px solid red;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        
+    }
+    .keyword{
+        width: 70%;
+        /* height: 350px;   */
+        border: 2px solid green;
+        margin: auto;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        font-size: small;
+        
+    }
+    .keyword div{
+        border-radius: 50%;
+        border: 1px solid red;
+       
+
+    }
+   .num{
+    background-color: black;
+    color: white;
+   }
+   #org{
+    background-color: rgb(173, 50, 5);
+   }
+</style>
+<body>
+    <h1>Keybord</h1>
+    <div id="main">
+
+        <div id="number"></div>
+
+        <div class="keyword">
+
+            <div><h1>1</h1></div>
+            <div><h1>2</h1></div>
+            <div><h1>3</h1></div>
+            <div class="num"><h1>+</h1></div>
+            <div><h1>4</h1></div>
+            <div><h1>5</h1></div>
+            <div><h1>6</h1></div>
+            <div class="num"><h1>-</h1></div>
+            <div><h1>7</h1></div>
+            <div><h1>8</h1></div>
+            <div><h1>9</h1></div>
+            <div class="num"><h1>*</h1></div>
+            <div id="org"><h1>C</h1></div>
+            <div><h1>0</h1></div>
+            <div class="num"><h1>=</h1></div>
+            <div class="num"><h1>/</h1></div>
+        </div>
+
+
+    </div>
+</body>
+</html>
